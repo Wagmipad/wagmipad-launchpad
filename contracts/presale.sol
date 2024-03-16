@@ -50,7 +50,7 @@ contract unisalePresale {
    Presale[] public presales;
    
    uint256 public feePoolPrice = 0.1 ether;
-   address public companyAcc = 0x54a6963429c65097E51d429662dC730517e630d5;
+   address public companyAcc = 0xd45a1d29A6467B5780198468F87D12840B8115Bf; // 0x54a6963429c65097E51d429662dC730517e630d5;
    
    uint public idCounter;
    

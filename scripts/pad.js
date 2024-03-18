@@ -14,9 +14,9 @@ async function main() {
 
   await unisalepresale.deployed();
 
-  console.log(
-    `Contract deployed to : ${unisalepresale.address}`
-  );
+  // console.log(
+  //   `Contract deployed to : ${unisalepresale.address}`
+  // );
 }
 
 // We recommend this pattern to be able to use async/await everywhere

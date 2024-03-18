@@ -108,6 +108,11 @@ contract CloneFactory {
    function _returnTotalPads() public view returns(padInfo[] memory){
         return totalPads;
    }
+   
+   function _getOwnerPresalesCount_v2(address requiredOwner) public view returns (uint) {
+      uint count = padOwners[requiredOwner].length;
+      return count;
+   }
 
 }
 

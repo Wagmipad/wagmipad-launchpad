@@ -14,9 +14,9 @@ async function main() {
 
   await clone.deployed();
 
-  console.log(
-    `Contract deployed to : ${clone.address}`
-  );
+  // console.log(
+  //   `Contract deployed to : ${clone.address}`
+  // );
 }
 
 // We recommend this pattern to be able to use async/await everywhere

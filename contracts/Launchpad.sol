@@ -18,7 +18,7 @@ contract Pad is Initializable {
     uint256 public totalBnbRaised;
     address public padOwner;
     
-    address public companyAcc = 0x54a6963429c65097E51d429662dC730517e630d5;
+    address public companyAcc = 0x00;
 
     function initialize (
          uint _id,
@@ -42,7 +42,7 @@ contract Pad is Initializable {
            padOwner = _padOwner;
 
          //   set launchpad platform owner account
-           companyAcc = 0x54a6963429c65097E51d429662dC730517e630d5;
+           companyAcc = 0x00;
     }
    
    //  constructor() {
@@ -53,11 +53,11 @@ contract Pad is Initializable {
    //      endTime = 1690301808;
    //      startTime = 1690301808;
    //      totalBnbRaised = 0.1 ether;
-   //      padOwner = 0x54a6963429c65097E51d429662dC730517e630d5;
+   //      padOwner = 0x00;
 
    //      whitelistOption = true;
-   //      usersContributions[0x54a6963429c65097E51d429662dC730517e630d5] = 0.1 ether;
-   //      whitelistMembership[0x54a6963429c65097E51d429662dC730517e630d5] = true;
+   //      usersContributions[0x00] = 0.1 ether;
+   //      whitelistMembership[0x00] = true;
    //  }
     
     address[] public whitelist;
